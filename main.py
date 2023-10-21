@@ -13,9 +13,13 @@ def main():
         print("Error: 'number.txt' does not contain a valid integer.")
         return
 
-    print("Number from file:", numbers)
+    print(numbers)
 
     # Perform your calculations on the integer
+    print("Press any key to add numbers")
+    print("Press 'q' to quit")
+
+    #Function from the Counting class will run until the q key is pressed
     convertedNum = numbers + b.Function()
     print("Final Number:", convertedNum)
 
